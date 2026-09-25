@@ -1,0 +1,122 @@
+{
+  "version": 7,
+  "articulaciones": {
+    "4": {
+      "nombre": "hombro",
+      "pasos_por_grado": 57.803,
+      "metodo": "g",
+      "perimetro_mm": null,
+      "min_pasos": -4500,
+      "max_pasos": 4500,
+      "recorrido_deg": [
+        -77.9,
+        77.9
+      ],
+      "juego_deg": 0.0,
+      "diferencia_sentidos_pct": 1.8,
+      "dientes": null
+    },
+    "3": {
+      "nombre": "codo",
+      "pasos_por_grado": 446.0526,
+      "metodo": "g",
+      "perimetro_mm": null,
+      "min_pasos": -36000,
+      "max_pasos": 36000,
+      "recorrido_deg": [
+        -80.7,
+        80.7
+      ],
+      "juego_deg": 0.0,
+      "diferencia_sentidos_pct": 1.8,
+      "dientes": null
+    },
+    "1": {
+      "nombre": "muneca_pitch",
+      "pasos_por_grado": -24.9153,
+      "metodo": "g",
+      "perimetro_mm": null,
+      "min_pasos": -2100,
+      "max_pasos": 2100,
+      "recorrido_deg": [
+        -84.3,
+        84.3
+      ],
+      "juego_deg": 0.0,
+      "diferencia_sentidos_pct": 0.0,
+      "dientes": null
+    },
+    "5": {
+      "nombre": "base",
+      "pasos_por_grado": -55.8574,
+      "metodo": "g",
+      "perimetro_mm": null,
+      "min_pasos": -5000,
+      "max_pasos": 6000,
+      "recorrido_deg": [
+        -107.4,
+        89.5
+      ],
+      "juego_deg": 0.0,
+      "diferencia_sentidos_pct": 2.1,
+      "dientes": null
+    },
+    "2": {
+      "nombre": "muneca_roll",
+      "pasos_por_grado": -1.1111,
+      "metodo": "g",
+      "perimetro_mm": null,
+      "min_pasos": -200,
+      "max_pasos": 200,
+      "recorrido_deg": [
+        -180.0,
+        180.0
+      ],
+      "juego_deg": 0.0,
+      "diferencia_sentidos_pct": 0.0,
+      "dientes": null
+    }
+  },
+  "tramos_mm": {
+    "A_tabla_art4": 230.0,
+    "B_art4_art3": 220.0,
+    "C_art3_art1": 220.0
+  },
+  "desfases_x_mm": {
+    "art4": 0.0,
+    "art3": 0.0,
+    "art1": 0.0
+  },
+  "linterna": {
+    "direccion_haz_home": "izquierda",
+    "inclinacion_haz_deg": 0.0,
+    "adelante_mm": 70.0,
+    "arriba_mm": 50.0,
+    "costado_mm": 0.0,
+    "mancha_largo_mm": 160.0,
+    "mancha_ancho_mm": 90.0,
+    "lado_largo_en_home": "horizontal",
+    "distancia_trabajo_mm": 300.0
+  },
+  "plano_brazo": {
+    "art4_positivo_inclina_hacia": "izquierda"
+  },
+  "camara": {
+    "montaje": "fija",
+    "x_mm": 345.0,
+    "y_mm": -232.0,
+    "z_mm": 660.0,
+    "inclinacion_deg": -90.0,
+    "giro_deg": 0.0
+  },
+  "marcador": {
+    "id": 0,
+    "diccionario": "DICT_4X4_50",
+    "lado_mm": 46.0,
+    "x_mm": 150.0,
+    "y_mm": -252.0,
+    "z_mm": 14.0,
+    "inclinacion_deg": 0.0,
+    "giro_deg": 180.0
+  }
+}
